@@ -4,6 +4,10 @@
 팀원: 임채현 박선혜 박건희 김성훈 김태헌
 주제: 시니어 맞춤형 스마트 약 보관함 및 복약 안심 케어 시스템
 
+* DB 모델링 주소
+URL : https://aquerytool.com:443/aquerymain/index/?rurl=3fe6260b-18f0-43e8-a5e0-f27f3244cca5&
+Password : 5n8t86
+
 * 서버구축정보(핵심: MySQL)
 
   HOSTNAME : project-db-campus.smhrd.com
@@ -12,8 +16,6 @@
   PW       : 5555
   DataBase : JETSON5
 
-[2][3][4][5][6][7][8][9][10][11][12][13][14][15][16]
-[17][18][19][20][21][22][23][24][25][26][27][28][29][30]
 
 * 데이터베이스 설계순서?
   요구사항분석 > 개념설계 >  논리설계 > 물리설계 > DB구현  (개.눈.물)
@@ -25,7 +27,7 @@
 * DDL(Data Definition Language)    정의 명령어: CREATE, ALTER, DROP (TABLE)
   DML(Data Manipulation Language)  조작 명령어: INSERT, UPDATE, DELETE * SELECT는 아님(주의: 정처기에서 SELCT를 DML로 취급)
   DCL(Data Control Language)       제어 명령어: GRANT, REVOKE, COMMIT, ROLLBACK 
-  DQL(Data QueryLanguage)          질의 명령어: SELECT
+  DQL(Data Query Language)          질의 명령어: SELECT
   TCL(Transaction Control Language): DCL 명령어 중에서 COMMIT과 ROLLBACK을 따로 떼어서 TCL이라고 부르기도 함.
 
 * 변수, 컬럼의 네이밍 규칙(naming rule)
